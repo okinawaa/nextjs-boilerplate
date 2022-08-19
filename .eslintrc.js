@@ -7,13 +7,14 @@ module.exports = {
     // custom
     "react/function-component-definition": 0,
     "react/react-in-jsx-scope": 0,
+    "import/no-unresolved": 0,
+    "react/jsx-props-no-spreading": 0,
+    "import/extensions": 0,
 
     "react/jsx-filename-extension": [
       1,
       { extensions: [".js", ".jsx", ".tsx"] }
     ],
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error",
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
