@@ -1,7 +1,7 @@
 // global-style.ts
 import { createGlobalStyle } from "styled-components";
 import { reset } from "styled-reset";
-import { media } from "~/constants/Media";
+import media from "~/constants/Media";
 import { vw, vwMobile } from "~/constants/Size";
 import { ROOT_FONT_SIZE } from "~/constants/Variables";
 

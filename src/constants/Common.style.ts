@@ -1,5 +1,5 @@
 import styled, { CSSProperties } from "styled-components";
-import { media } from "./Media";
+import media from "./Media";
 import { pxToRem } from "./Size";
 
 export const SizedBox = styled.div<{
