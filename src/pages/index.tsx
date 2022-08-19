@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Body3, Title2 } from "~/constants/Typography";
 
-import * as Styled from "./index.style";
+import * as Styled from "../styles/index.style";
 
 const Home: NextPage = () => (
   <div>
